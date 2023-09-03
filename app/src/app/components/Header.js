@@ -11,7 +11,7 @@ export default function Header() {
     const classNames = ['font-medium'];
     return (
         <header>
-            <div className="navbar px-0">
+            <div className="navbar p-10 pb-0">
                 <div className="flex-1">
                     <Link href={'/'}>
                         <Image
